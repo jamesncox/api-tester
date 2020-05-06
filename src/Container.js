@@ -13,8 +13,8 @@ function Container(props) {
     return (
         <div>
             <URL />
-            <Json />
             <button onClick={handleClear}>Clear JSON</button>
+            <Json />
         </div>
     )
 }
