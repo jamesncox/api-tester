@@ -41,7 +41,7 @@ class URL extends Component {
                     <input
                         className="generate-button"
                         type="submit"
-                        value="Generate JSON"
+                        value="Test URL"
                     />
                 </form>
                 <button onClick={this.handleClearURL}>Clear URL</button>
