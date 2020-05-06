@@ -1,38 +1,52 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  background-color: rgba(0, 0, 0, 0.74);
+  color: rgba(255, 255, 255, 0.829);
+  text-shadow: 1px 1px 1px black;
+  border-bottom-left-radius: .5in;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  color: rgba(255, 255, 255, 0.493);
+  font-weight: lighter;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  border-radius: .05in;
+  font-size: 15px;
+  background-color: rgb(209, 209, 209);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.api-url{
+  width: 60%;
+  height: 20px;
+  border-radius: .05in;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.json {
+  font-size: 15px;
+  width: 95%;
+  margin: auto;
+  padding: 10px
+}
+
+.generate-button{
+  margin-left: 5px;
+  border-radius: .05in;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
